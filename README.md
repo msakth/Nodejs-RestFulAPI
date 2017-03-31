@@ -19,9 +19,11 @@ RESTful API using Nodejs, express js and mongoDB
     
 4# Type **gulp**  on the terminal to start the server and listen at port 8080
 
-5# Use tool like Postman and use the below URL's
+5# Use tool like Postman to access the below resources
 
 GET: http://localhost:8080/api/Standups
+
+GET BY ID : http://localhost:8080/api/Standups/58d05d91895abe2f2013f9e1 
 
 POST: http://localhost:8080/api/Standups/
 
