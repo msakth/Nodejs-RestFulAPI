@@ -1,5 +1,5 @@
 # Nodejs-RestFulAPI
-RESTful API using Nodejs and express js and mongoDB
+RESTful API using Nodejs, express js and mongoDB
 
 
 **STEPS**:
@@ -8,7 +8,7 @@ RESTful API using Nodejs and express js and mongoDB
 
 2# Create a database named test on mongoDB
 
-3# Create a mongoDB document names **standups** with the below fields
+3# Create a mongoDB document named **Standups** with the below fields
 
     memberName: String
     project: String
@@ -23,7 +23,17 @@ RESTful API using Nodejs and express js and mongoDB
 
 GET: http://localhost:8080/api/Standups
 
-POST: http://localhost:8080/api/standups/
+POST: http://localhost:8080/api/Standups/
+
+    sample body
+    
+     {
+      "memberName": "your name",
+      "workYesterday": "Yesterday1",
+      "workToday": "Today1",
+      "impediment": "Today2",
+    }
+    
 
 PUT: http://localhost:8080/api/Standups/58d05d91895abe2f2013f9e1 
     
